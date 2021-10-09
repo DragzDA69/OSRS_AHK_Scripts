@@ -1,5 +1,7 @@
 ## Drop Fish
-#### **NOTE:** This requires the assistance of the Runelite's [Left Click Dropper](https://github.com/JZomDev/zom-external-plugins/tree/065eca5a35bbc78f774ab9641d378aca1c2832ff) plugin.
+#### **NOTE:** This requires the assistance of the Runelite's [Left Click Dropper](https://github.com/JZomDev/zom-external-plugins/tree/065eca5a35bbc78f774ab9641d378aca1c2832ff) plugin - which can be found on the Plugin Hub.  
+![image](https://user-images.githubusercontent.com/92201744/136655199-9b35a21a-803d-4528-b242-db3ba3bffaf6.png)
+
 Add <code>Leaping sturgeon</code>, <code>Leaping trout</code>, and <code>Leaping salmon</code> to the list as so <br/><br/>
 ![image](https://user-images.githubusercontent.com/92201744/136648602-67d0351d-15f9-4981-ac17-22cb45586c43.png)
 <hr/>
