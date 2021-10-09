@@ -10,7 +10,7 @@ Place fishing tool & bait in the spots as shown in the following picture.
 ![image](https://user-images.githubusercontent.com/92201744/136648311-a5af71c9-6fa7-42e0-9c77-011fbc90a692.png)
 
 
-When going to drop, click on the first fish in your inventory.  
+When going to drop, hover over the first fish in your inventory.  
 ![image](https://user-images.githubusercontent.com/92201744/136648644-cb1d1d40-6bcd-492d-b988-1fbb590a125b.png)
 
 Click F4 (or your desired hot key if modified), and watch those fish disapear!
