@@ -5,5 +5,5 @@
 > [Drop Fish](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/Drop%20Fish/DropFishREADME.md) -
 Drops an entire inventory of fish
 
-> [3 Tick Fishing](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/Drop%20Fish/DropFishREADME.md) -
+> [3 Tick Fishing](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/3Tick%20Fishing/3TickFishREADME.md) -
 In Development
