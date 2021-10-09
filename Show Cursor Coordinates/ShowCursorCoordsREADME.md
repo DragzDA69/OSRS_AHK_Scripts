@@ -1,0 +1,1 @@
+### Activates a tooltip that shows the cursor's current X & Y coordinates within the focused application or desktop
