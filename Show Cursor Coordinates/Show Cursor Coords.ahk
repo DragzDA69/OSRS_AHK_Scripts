@@ -1,8 +1,9 @@
 ﻿#Persistent
 SetTimer, WatchCursor, 100
-return
+Return
 
 WatchCursor:
-MouseGetPos, xpos, ypos 
-ToolTip, The cursor is at  ->  x:%xpos%   y:%ypos%
-return
+MouseGetPos, xpos, ypos, id, control
+WinGetTitle, title, A
+ToolTip, Application:  %title%`nCoordinates:  [x:%xpos%  y:%ypos%]
+Return
