@@ -1,4 +1,6 @@
 ## Drop Fish
+### Drops your fish, so you dont have to!  
+
 #### **NOTE:** This requires the assistance of the Runelite's [Left Click Dropper](https://github.com/JZomDev/zom-external-plugins/tree/065eca5a35bbc78f774ab9641d378aca1c2832ff) plugin - which can be found on the Plugin Hub.  
 ![image](https://user-images.githubusercontent.com/92201744/136655199-9b35a21a-803d-4528-b242-db3ba3bffaf6.png)
 
