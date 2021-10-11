@@ -5,7 +5,7 @@ To use, set up your inventory as shown below.
 This is **extremely** important in order for the script to work.  
 ![image](https://user-images.githubusercontent.com/92201744/136803586-a4b6ef1a-1d72-46d8-9a3e-c9c81b02cd93.png)
 
-Once you are ready, click **F4** (or your desired hotkey if modified), and watch the fertiliser be made!
+Once you are ready, hover over the first item in your inventory then click **F4** (or your desired hotkey if modified), and watch the fertiliser be made!
 
 <hr/>
 
