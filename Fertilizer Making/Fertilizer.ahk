@@ -1,42 +1,50 @@
-﻿F4:: 
-
-Loop, 3
-{
-   Click Left
-   Mousemove, 40, 0, 0, R
-   Click Left
-   Mousemove, 0, 36, 0, R
-   Click Left
-   Mousemove, -40, 0, 0, R
-   Click Left
-   Mousemove, 0, 36, 0, R
+﻿; ## Helper Functions ##
+MoveDownItem(i:=1) {
+  Mousemove, 0 , i*(36) , 0 , R 
 }
-Loop, 3
-{
-   Click Left
-   Mousemove, 40, 0, 0, R
+MoveUpItem(i:=1) {
+  Mousemove, 0 , i*(-36) , 0 , R 
 }
-Click Left
-Mousemove, 0, -36, 0, R
+MoveRightItem(i:=1) {
+  Mousemove, i*(40) , 0 , 0 , R 
+}
+MoveLeftItem(i:=1) {
+  Mousemove, i*(-40) , 0 , 0 , R 
+}
 
-Loop, 2
-{
+; ## Key Binding Executions ## 
+F4:: 
+Loop, 3 {
    Click Left
-   Mousemove, -40, 0, 0, R
+   MoveRightItem()
    Click Left
-   Mousemove, 0, -36, 0, R
+   MoveDownItem()
    Click Left
-   Mousemove, 40, 0, 0, R
+   MoveLeftItem()
    Click Left
-   Mousemove, 0, -36, 0, R
+   MoveDownItem()
+}
+Loop, 3 {
+   Click Left
+   MoveRightItem()
 }
 Click Left
-Mousemove, -40, 0, 0, R
-Click Left
-Mousemove, 0, -36, 0, R
-Click Left
-Mousemove, 40, 0, 0, R
-Click Left
+MoveUpItem()
 
-Mousemove, -250, 0, 0, R
+Loop, 2 {
+   Click Left
+   MoveLeftItem()
+   Click Left
+   MoveUpItem()
+   Click Left
+   MoveRightItem()
+   Click Left
+   MoveUpItem()
+}
+Click Left
+MoveLeftItem()
+Click Left
+MoveUpItem() 
+Click Left
+MoveRightItem()
 Click Left
