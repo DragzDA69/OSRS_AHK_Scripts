@@ -1,4 +1,8 @@
-﻿; ## Helper Functions ##
+﻿; ## Local Variables ##
+ItemsToSkip = 1	;Skips items stored in the 4th slot of each row - starting at the top.
+FinalLoop := (4-ItemsToSkip)	;Amount of times the final loop wil run - DO NOT TOUCH!
+
+; ## Helper Functions ##
 MoveDownItem(i:=1) {
   Mousemove, 0 , i*(36) , 0 , R 
 }
@@ -13,6 +17,10 @@ MoveLeftItem(i:=1) {
 }
 
 ; ## Key Binding Executions ## 
+F6::
+MsgBox, ,Skip Settings, Currently skipping %ItemsToSkip% item(s).
+Return 
+
 F4:: 
 Loop, 6 {
   Click Left
@@ -38,7 +46,7 @@ Loop, 6 {
 Click Left
 MouseMove 40, -72, 0, R
 
-Loop, 4 {
+Loop, %FinalLoop% {
   Click Left
   MoveUpItem(1)
 }
