@@ -1,4 +1,4 @@
-## Fertiliser Maker
+## Dart Maker
 #### Used to make darts with dart tips and feathers.  
 
 
@@ -13,4 +13,4 @@ Once you are ready, hover over the top item click **F4** (or your desired hotkey
 Out-of-the box the script will perform **10** fletch cycles per hotkey press.  
 This can be modified by editing the script, and adjusting the _**FletchCyclesToDo**_ property to your desired amout of cycles.
 
-### Please note, when the script is started it cannot be stopped until it finished. <br/>So be aware of how many cycles you are setting!
+#### Script execution can be stopped by pressing the _**ESC**_ key
