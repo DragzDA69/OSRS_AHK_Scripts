@@ -16,9 +16,9 @@ MoveTo(x, y) {
 }
 
 ; ## Local Variables ##
-Slot1_x := 742
-Slot1_y := 325
-Fish_x := 630
+Slot1_x := 725
+Slot1_y := 310
+Fish_x := 725
 Fish_y := 350
 
 ; ## Key Binding Executions ## 
