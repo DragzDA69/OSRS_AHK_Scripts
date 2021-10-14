@@ -1,5 +1,5 @@
 ﻿; ## Local Variables ##
-ItemsToSkip = 1	;Skips items stored in the 4th slot of each row - starting at the top.
+ItemsToSkip = 0	;Skips items stored in the 4th slot of each row - starting at the top.
 FinalLoop := (4-ItemsToSkip)	;Amount of times the final loop wil run - DO NOT TOUCH!
 
 ; ## Helper Functions ##
