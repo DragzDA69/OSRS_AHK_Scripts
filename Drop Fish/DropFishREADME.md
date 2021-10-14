@@ -8,7 +8,7 @@ Add <code>Leaping sturgeon</code>, <code>Leaping trout</code>, and <code>Leaping
 ![image](https://user-images.githubusercontent.com/92201744/136648602-67d0351d-15f9-4981-ac17-22cb45586c43.png)
 <hr/>
 
-## Usage
+## How to Use
 
 Place fishing tool and/or bait in the spot(s) shown below.  
 | Tool & Bait <br/> Drop Fish (tool and bait).ahk | **Tool Only** <br/> Drop Fish (tool only).ahk |
@@ -19,3 +19,15 @@ When going to drop, hover over the first fish in your inventory.
 ![image](https://user-images.githubusercontent.com/92201744/136648644-cb1d1d40-6bcd-492d-b988-1fbb590a125b.png)
 
 Click F4 (or your desired hot key if modified), and watch those fish disapear!
+<hr/>
+
+## Item Skipping
+Both scripts have the ability to be customized to avoid dropping a certain amount of items.  
+This is primarily useful when obtaining items during fishing that you wish to keep - i.e. Clue Scrolls.
+
+Any item(s) that you want to be skipped when dropping need to be stored in the _**4th slot of each row**_ - starting from the top.  
+Example:  
+![image](https://user-images.githubusercontent.com/92201744/137232351-135ca6a2-9312-453a-8ed0-c0fa581c41bd.png)  
+
+With _**Tool & Bait AHK**_ you can hold up to 5 items to keep from dropping,  
+With _**Tool Only AHK**_ you can hold up to 6 items to keep from dropping.
