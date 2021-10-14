@@ -1,5 +1,5 @@
 ﻿; ## Local Variables ##
-FletchCyclesToDo := 10
+FletchCyclesToDo := 100
 
 ; ## Helper Functions ##
 MoveDownItem(i:=1) {
@@ -17,7 +17,7 @@ MoveLeftItem(i:=1) {
 
 ; ## Key Binding Executions ## 
 
-F10:: 
+F4:: 
 Loop, %FletchCyclesToDo% {
   Click Left
   MoveDownItem()
@@ -27,4 +27,9 @@ Loop, %FletchCyclesToDo% {
   Click Left
 }
 
+Return
+
+
+Escape::
+ExitApp
 Return
