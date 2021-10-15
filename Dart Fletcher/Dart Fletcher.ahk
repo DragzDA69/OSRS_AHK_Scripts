@@ -1,5 +1,5 @@
 ﻿; ## Local Variables ##
-FletchCyclesToDo := 100
+FletchCyclesToDo := 10
 
 ; ## Helper Functions ##
 MoveDownItem(i:=1) {
