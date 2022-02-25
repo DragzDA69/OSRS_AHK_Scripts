@@ -5,9 +5,6 @@
 > [Drop Fish](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/Drop%20Fish/DropFishREADME.md) -
 Drops an entire inventory of fish
 
-> [3 Tick Fishing](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/3Tick%20Fishing/3TickFishREADME.md) -
-In Development
-
 > [Fertilizer Making](https://github.com/DragzDA69/OSRS_AHK_Scripts/blob/main/Fertiliser%20Maker/FertiliserREADME.md) -
 Used to make Sulphurous fertiliser quickly
 

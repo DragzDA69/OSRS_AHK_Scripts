@@ -22,6 +22,7 @@ MsgBox, ,Skip Settings, Currently skipping %ItemsToSkip% item(s).
 Return 
 
 F4:: 
+MouseGetPos, xPos, yPos
 Loop, 6 {
   Click Left
   MoveDownItem(1)
@@ -52,5 +53,6 @@ Loop, %FinalLoop% {
 }
 
 Click Left
+MouseMove xPos, yPos		; Move mouse back to original position
 
 Return
